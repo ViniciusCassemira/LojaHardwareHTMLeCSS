@@ -17,7 +17,7 @@ body{
     margin-top: 10px;
     margin-bottom: 2%;
     padding-bottom: 10px;
-    border-bottom: solid black 0.5px ;
+    border-bottom: solid black 1px ;
 }
 
 .cabecalho-menu{
@@ -35,26 +35,33 @@ body{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-top: 0;
+    margin-bottom: 30px;
 }
 
 .conteudo-cima-texto{
     display: flex;
     flex-direction: column;
+    gap: 25px;
 }
 .conteudo-cima-imagem{
-    height: 180px;
-    width: 180px;
+    height: 160px;
+    width: 160px;
 }
 
 .conteudo-baixo{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
 }
 
+.conteudo-baixo-titulo{
+    border-top: solid black 1px;
+    padding-top:30px;
+}
 
 /*Estilização conteúdo rodapé*/
 .rodape{
-    border-top: solid rgb(0, 0, 0) 0.5px;
+    border-top: solid rgb(0, 0, 0) 1px;
     margin-top: 2%;
 }
