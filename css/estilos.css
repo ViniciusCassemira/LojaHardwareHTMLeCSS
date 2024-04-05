@@ -43,6 +43,18 @@ body{
     flex-direction: column;
     gap: 25px;
 }
+
+.conteudo-cima-botao{
+    
+    border: none;
+    border-radius: 10px;
+    padding: 1%;
+}
+.conteudo-cima-botao:hover{
+    background-color: rgb(197, 197, 197);
+    transition: background-color 0.25s;
+}
+
 .conteudo-cima-imagem{
     height: 160px;
     width: 160px;
