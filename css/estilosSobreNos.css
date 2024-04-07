@@ -3,25 +3,64 @@
     flex-direction: row; 
     justify-content: space-around;
     align-items: center;
-    margin: 2%;
+    margin:2%;
+    gap: 15%;
 }
+
+.sobre-nos-cima-titulo{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.sobre-nos-cima-paragrafo{
+    font-family: "Mukta Vaani", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.sobre-nos-cima-imagem{
+    width: 180px;
+    border-radius: 12px;
+}
+
 
 .sobre-nos-baixo{
     display: flex;
     flex-direction: row; 
     justify-content: space-around;
     align-items: center;
-    margin: 1.5%;
+    margin: 1%;
     gap: 20px;
 }
 
-.sobre-nos-cima-imagem{
-    width: 200px;
+.sobre-nos-baixo-video-titulo{
+    font-family: "Mukta Vaani", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.sobre-nos-baixo-video-mp4{
+    border-radius: 10px;
 }
 
 .sobre-nos-baixo-texto{
-    background-color: aquamarine;
-    border: solid black 1px;
+    background-color: #2958b6;
     border-radius: 8px;
-    padding: 3px;
 }
+
+.sobre-nos-baixo-texto-grupo{
+    padding: 15px;
+}
+
+.sobre-nos-baixo-texto h3{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.sobre-nos-baixo-texto p{
+    font-family: "Mukta Vaani", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
