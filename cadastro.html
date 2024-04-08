@@ -3,14 +3,15 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="widht=device-widht, initial-scale=1.0">
-        <title>Chinês das Peças</title>
+        <title>Chinês das Peças - Cadastro</title>
         <link rel="stylesheet" href="css/estilos.css">
         <link rel="stylesheet" href="css/estilosCadastro.css">
         <link rel="shortcut icon" href="img/favicon.svg">
     </head>
     <body>
-        <header class="cabecalho">
-            <img class=" cabecalho-imagem" src="img/imagem-cabecalho.png" alt="Logo Chinês das Peças">
+        <header class="cabecalho"> <!--Cabecalho do site, existe em todas as "abas"-->
+            <a href="index.html"><img class=" cabecalho-imagem" src="img/imagem-cabecalho.png" alt="Logo Chinês das Peças"></a> <!--Logo do cabecalho-->
+            
             <nav class="cabecalho-menu">
                 <a class="cabecalho-menu-item" href="index.html">Tela Inicial</a>
                 <a class="cabecalho-menu-item" href="produtos.html">Produtos</a>
@@ -18,12 +19,13 @@
                 <a class="cabecalho-menu-item" href="sobreNos.html">sobre nós</a>
             </nav>
         </header>
-        <main class="conteudo">
+
+        <main class="conteudo"> <!--Conteúdo daquela aba-->
             <h2 class="cadastro-titulo">Cadastrar-se</h2>
             <p class="cadastro-subtitulo">Complete com suas informações</p>
 
             <fieldset class="cadastro-conteudo">
-                <form action="" class="cadastro-conteudo-formulario">
+                <form action="" class="cadastro-conteudo-formulario"> <!--Cadastro de cliente/contato-->
 
                     <div class="cadastro-conteudo-formulario-grupo">
                         <div class="cadastro-conteudo-formulario-coluna">
@@ -64,10 +66,12 @@
                             <input type="email" id="iemail" name="email"   placeholder="Informe seu melhor e-mail" required>
                         </div>
                     </div>
-
-                    <div class="cadastro-conteudo-formulario-telefone">
-                        <label for="itelefone">Telefone</label>
-                        <input type="number" id="itelefone" name="telefone" placeholder="ddd + seu número">
+                    
+                    <div class="cadastro-conteudo-formulario-grupo">
+                        <div class="cadastro-conteudo-formulario-coluna">
+                            <label for="itelefone">Telefone</label>
+                            <input type="number" id="itelefone" name="telefone" placeholder="ddd + seu número">
+                        </div>
                     </div>
                     
                     <div class="cadastro-conteudo-formulario-promocao">
@@ -75,13 +79,14 @@
                         <input type="checkbox" id="ipromocoes" name="promocoes">
                     </div>
                     
-                    <div class="cadastro-conteudo-formulario-botao">
+                    <div class="cadastro-conteudo-formulario-botao"> <!--Botão sem função, apenas visual-->
                         <button id="ibotaocadastro" type="submit">Realizar Cadastro</button>
                     </div>    
                 </form>    
             </fieldset>
         </main>
-        <footer class="rodape">
+
+        <footer class="rodape"> <!--Rodapé do site, também existe em todas as "abas"-->
             <p>Chinês das Peças Ltda.</p>
             <adress>
                 Rua xing Xong nº345 - Xangai 

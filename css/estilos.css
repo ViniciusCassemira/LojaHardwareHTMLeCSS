@@ -10,7 +10,6 @@ body{
     color: white;
 }
 
-/*Estilização cabecalho*/
 .cabecalho{
     font-family: "Mukta Vaani", sans-serif;
     font-weight: 400;
@@ -24,7 +23,6 @@ body{
     padding-bottom: 10px;
     border-bottom: solid #2d4677 1px ;
 }
-
 .cabecalho-menu{
     display: flex;
     gap: 40px;
@@ -36,12 +34,16 @@ body{
     border-radius: 6px;
     padding: 4px;
 }
-
 .cabecalho-menu-item:hover{
     background-color: #dce7fd;
     border: 0.5px solid #dce7fd;
 
 }
+.cabecalho-imagem{
+    width: 95px;
+    height: 75px;  
+}
+
 .pagina-atual{
     border: 0.5px solid #ffffff;
     background-color: #5f78a6;
@@ -52,14 +54,6 @@ body{
     border: 0.5px solid white
 }
 
-
-
-.cabecalho-imagem{
-    width: 95px;
-    height: 75px;  
-}
-
-/*Estilização conteúdo página inicial*/
 .conteudo-cima{
     display: flex;
     flex-direction: row;
@@ -67,11 +61,10 @@ body{
     align-items: center;
     margin-bottom: 30px;
 }
-
 .conteudo-cima-texto{
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 35px;
 }
 .conteudo-cima-texto-titulo{
     font-family: sans-serif;
@@ -83,7 +76,6 @@ body{
     font-weight: 400;
     font-size: 19px;
 }
-
 .conteudo-cima-botao{
     font-family: "Mukta Vaani", sans-serif;
     font-weight: 400;
@@ -100,7 +92,6 @@ body{
     background-color: #3172F2;
     transition: background-color 0.25s;
 }
-
 .conteudo-cima-imagem{
     height: 160px;
     width: 160px;
@@ -113,7 +104,6 @@ body{
     align-items: center;
     gap: 24px;
 }
-
 .conteudo-baixo-titulo{
     font-family: "Mukta Vaani", sans-serif;
     font-weight: 500;
@@ -128,6 +118,7 @@ body{
 }
 
 /*Estilização conteúdo rodapé*/
+
 .rodape{
     border-top: solid #2d4677 1px;
     margin-top: 3%;

@@ -1,9 +1,3 @@
-/*.cadastro-cliente{
-    border: solid black 0.5px;
-    background-color:rgb(114, 114, 114);
-    color:white;
-}*/
-
 .cadastro-titulo{
     font-family: sans-serif;
     font-weight: 600;
@@ -48,12 +42,6 @@
 .cadastro-conteudo-formulario-coluna{
     display: flex;
     flex-direction: column;
-    /*padding-right: 90px;*/
-}
-.cadastro-conteudo-formulario-telefone{
-    display: flex;
-    flex-direction: column;
-    padding-left: 42px;
 }
 
 .cadastro-conteudo-formulario-promocao{
@@ -69,7 +57,6 @@
     margin-top: 10px;
 }
 
-
 #ibotaocadastro{
     display: flex;
     border-radius: 6px;
@@ -82,7 +69,6 @@
     color: white;
     border: none;
 }
-
 #ibotaocadastro:hover{
     background-color: #3172F2;
     transition: background-color 0.25s;
@@ -97,7 +83,6 @@
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     display: block;
 }
-
 .cadastro-conteudo-formulario-coluna select{
     border-radius: 4px;
     width: 209px;

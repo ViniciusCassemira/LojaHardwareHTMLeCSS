@@ -12,14 +12,12 @@
     font-size: 20px;
     margin-left: 2%;
 }
-
 .produtos-promocao{
     display: flex;
     justify-content: space-around;
     margin-top: 5px;
     background-color: rgb(169, 196, 243);
 }
-
 figure{
     display: flex;
     flex-direction: column;
@@ -35,7 +33,6 @@ figure:hover{
     transition: box-shadow 0.15s;
     cursor: pointer;
 }
-
 img{
     display: flex;
     align-items: center;
@@ -43,8 +40,6 @@ img{
     height: 165px;
     border-radius: 8px;
 }
-
-
 figcaption{
     background-color: rgb(75, 75, 228);
     border-radius: 4px;
@@ -61,7 +56,6 @@ figcaption{
     margin-top: 2%;
     margin-bottom: 1%;
 }
-
 .produto-lancamento{
     display: flex;
     flex-direction: row;
@@ -85,13 +79,11 @@ figcaption{
     align-items: center;
     margin: 3%;
 }
-
 .produto-lancamento-direita-cabecalho-titulo{
     font-family: sans-serif;
     font-weight: 600;
     font-size: 22px;
 }
-
 .produto-lancamento-direita-cabecalho-subtitulo{
     font-family: "Mukta Vaani", sans-serif;
     font-weight: 400;
