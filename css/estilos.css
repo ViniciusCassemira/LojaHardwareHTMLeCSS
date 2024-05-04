@@ -87,6 +87,8 @@ body{
     border: none;
     border-radius: 6px;
     padding: 6px;
+    width:150px;
+    text-align: center;
 }
 .conteudo-cima-botao:hover{
     background-color: #3172F2;
